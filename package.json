@@ -1,20 +1,43 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A friendinder compatability app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/njd1228/friendfinder.git"
   },
-  "author": "",
+  "keywords": [
+    "frienfinder",
+    "friend-finder",
+    "app",
+    "node",
+    "expres",
+    "heroku"
+  ],
+  "author": "Nicholas Donato",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/njd1228/friendfinder/issues"
   },
-  "homepage": "https://github.com/njd1228/friendfinder#readme"
+  "homepage": "https://github.com/njd1228/friendfinder#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "bootstrap": "^4.2.1",
+    "css": "^2.2.4",
+    "expres": "0.0.5",
+    "express": "^4.16.4",
+    "js": "^0.1.0",
+    "modules": "^0.4.0",
+    "node": "^11.9.0",
+    "node.js": "0.0.0",
+    "parser": "^0.1.4",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.7",
+    "server.js": "^1.0.0"
+  }
 }
